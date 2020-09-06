@@ -26,12 +26,3 @@ Take a look and try to make sense of it.
 [Coding Exercise](sklearn_intro.ipynb)
 
 To download the notebook files correctly, you can clone, or download all, or open the file in raw and save as.
-
-## Extra
-
-You can also install jupyter lab which comes with extra features like tabs and a nice file overview.
-
-<code>conda install jupyterlab</code>
-
-Some student might have trouble with graphviz, a fix can be found here: https://datascience.stackexchange.com/questions/37428/graphviz-not-working-when-imported-inside-pydotplus-graphvizs-executables-not
-
