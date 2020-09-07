@@ -46,6 +46,11 @@ class RegressionStump():
         self.left = None
         self.right = None
         ### YOUR CODE HERE
+        cost = np.zeros((data.shape[0], data.shape[1]))
+        for f in range(data.shape[1]):
+            for v in range(data.shape[0]):
+                cost[v,f] = 
+        
         ### END CODE
 
     def predict(self, X):
@@ -58,6 +63,9 @@ class RegressionStump():
         """
         pred = None
         ### YOUR CODE HERE
+        
+        pred = self.
+        
         ### END CODE
         return pred
     
